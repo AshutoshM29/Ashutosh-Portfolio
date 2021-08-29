@@ -56,7 +56,7 @@ hr {
 /* Nav */
 
 .navigation {
-    background-color: #1D4ED8;;
+    background-color: #1D4ED8;
     color: white;
     padding: 2.5rem;
     border-bottom-left-radius: 1rem;
@@ -161,3 +161,16 @@ hr {
 .figcaption{
         font-size: 1rem;
     }
+
+
+.social-img {
+    display: block;
+    margin: auto;
+    max-width: 10px;   
+}
+
+
+
+.list-item {
+    font-weight: bold;
+}
