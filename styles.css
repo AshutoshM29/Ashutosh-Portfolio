@@ -14,6 +14,12 @@ hr {
     margin: 2rem 0rem;
 }
 
+/* spaces */
+
+.margin-md {
+    margin: 2rem;
+}
+
 /* Containers */
 .container {
     padding: 0rem 1rem;
@@ -27,8 +33,11 @@ hr {
 /* Links */
 
 .link {
+    box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    /* margin-top: 1rem;
+    margin-bottom: 1rem; */
 }
 
 .link-primary {
@@ -83,16 +92,11 @@ hr {
 
 .hero {
     padding: 2rem;
-}
-
-.icon-img {
-    display: block;
-    margin: auto;
-    max-width: 20;
+    padding-top: 5rem;
 }
 
 .hero .hero-img {
-    max-width: 350px;
+    max-width: 500px;
     display: block;
     margin: auto;
 }
@@ -151,7 +155,7 @@ hr {
 
 
 .list-item-inline{
-        padding: 5rem;
+        padding: 2rem;
     }
 
  .logo{
@@ -166,11 +170,22 @@ hr {
 .social-img {
     display: block;
     margin: auto;
-    max-width: 10px;   
+    max-width:70px;   
 }
-
-
 
 .list-item {
+    display: inline;
     font-weight: bold;
 }
+
+.li-img-logo {
+    display: block;
+    margin: auto;
+    max-width:70px;   
+}
+
+.image-text {
+    margin: auto;
+    text-align: right;
+}
+
