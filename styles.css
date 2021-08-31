@@ -2,7 +2,7 @@
 
 :root {
     --primary-color: #1D4ED8;
-    --second-color: #BFDBFE;
+    --second-color: #EDF2F4;
 }
 
 body {
@@ -17,12 +17,12 @@ hr {
 /* spaces */
 
 .margin-md {
-    margin: 2rem;
+    margin: 5rem;
 }
 
 /* Containers */
 .container {
-    padding: 0rem 1rem;
+    padding: 0rem, 1rem;
 }
 
 .container-center {
@@ -36,14 +36,12 @@ hr {
     box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
-    /* margin-top: 1rem;
-    margin-bottom: 1rem; */
 }
 
 .link-primary {
     background-color: #1D4ED8;
     border-radius: 0.5rem;
-    color: white
+    color: white;
 }
 
 .link-secondary {
@@ -67,16 +65,17 @@ hr {
 .navigation {
     background-color: #1D4ED8;
     color: white;
-    padding: 2.5rem;
+    padding: 1.5rem;
     border-bottom-left-radius: 1rem;
 }
 
 .navigation .nav-brand {
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .navigation .nav-pills {
+    font-size: 1.5rem;
     text-align: right;
 }
 
@@ -92,7 +91,7 @@ hr {
 
 .hero {
     padding: 2rem;
-    padding-top: 5rem;
+    padding-top: 2.5rem;
 }
 
 .hero .hero-img {
@@ -103,7 +102,7 @@ hr {
 
 .hero .hero-heading {
     padding-top: 1rem;
-    color: #BFDBFE;
+    color: #60A5FA;
     text-align: center;
 }
 
@@ -114,7 +113,7 @@ hr {
 /* Section */
 
 .section {
-    padding: 2rem;
+    padding: 4rem;
 }
 
 .section h1 {
@@ -123,7 +122,7 @@ hr {
 
 .ow {
     background-color:
-    #BFDBFE;
+    #EDF2F4;
 }
 
 /* Footer */
@@ -158,19 +157,9 @@ hr {
         padding: 2rem;
     }
 
- .logo{
-        width: 60px;
-    }
-
-.figcaption{
-        font-size: 1rem;
-    }
-
-
 .social-img {
-    display: block;
     margin: auto;
-    max-width:70px;   
+    max-width:60px;   
 }
 
 .list-item {
@@ -179,13 +168,29 @@ hr {
 }
 
 .li-img-logo {
-    display: block;
-    margin: auto;
-    max-width:70px;   
+    max-width:150px; 
 }
 
 .image-text {
     margin: auto;
-    text-align: right;
+    text-align: auto;
 }
 
+.logos{
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.logo{
+    width: 80px;
+}
+
+.logoDiv{
+    margin: 0.5rem;
+}
+
+figcaption{
+    font-weight: bold;
+    font-size: 1rem;
+}
