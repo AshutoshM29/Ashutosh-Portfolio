@@ -1,2 +1,2 @@
-# Component-Libarary
- This is my component libaray.
+# Portfolio
+ This is a website to showcase my portfolio
