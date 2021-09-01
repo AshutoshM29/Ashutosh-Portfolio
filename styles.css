@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
 
 :root {
@@ -72,7 +73,7 @@ hr {
 
 .navigation .nav-brand {
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .navigation .nav-pills {
@@ -195,3 +196,87 @@ figcaption{
     font-weight: bold;
     font-size: 1rem;
 }
+
+
+
+/* Mobile-View */
+
+/* @media screen and (max-width: 360px)
+{
+    .hero-img {
+        width:260px
+    }
+    .list-item-inline{
+        padding:0rem;
+    }
+    .logo{
+        width:40px;
+    }
+    .figcaption {
+        font-size: 0.6rem;
+    }
+} */
+
+/* @media screen and (min-width: 768px) and (min-height: 1024px){
+    .navigationlinks {
+        margin-top: 2rem;
+    }
+
+    .small {
+        top: 55px;
+    }
+
+    .myimg {
+        margin-bottom: 0vh;
+      } 
+
+    .one p, .two p, .three p {
+        font-size: 1.1rem;
+    }
+
+    .projectimg {
+        max-height: 60vh;
+        object-fit: unset;
+    }
+    
+ }
+
+ @media screen and (min-width: 1024px) and (min-height: 1366px){
+    .navigationlinks {
+        margin-top: 2rem;
+    }
+
+    .small {
+        top: 75px;
+    }
+    
+    html {
+        font-size: 23px;
+    } 
+
+    .myimg {
+        margin-bottom: -2vh;
+      } 
+
+    .one p, .two p, .three p {
+        font-size: 1.2rem;
+    }
+
+    
+ }
+
+@media screen and (min-width: 1300px) and (max-height: 2600px){
+    
+    .myimg {
+        margin-bottom: -2vh;
+      } 
+
+      .sectiontitle {
+          font-size: 3.5rem;
+      }
+     
+      .one p, .two p, .three p {
+          font-size: 1.5rem;
+      }
+
+ */
