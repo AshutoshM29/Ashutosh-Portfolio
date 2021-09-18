@@ -118,7 +118,7 @@ hr {
 }
 
 .heading-inverted {
-    color : #1D4ED8;
+    color: #1D4ED8;
 }
 
 /* Section */
@@ -133,13 +133,13 @@ hr {
 
 .ow {
     background-color:
-    #EDF2F4;
+        #EDF2F4;
 }
 
 /* Footer */
 
 .footer {
-    background-color:#1D4ED8 ;
+    background-color: #1D4ED8;
     padding: 2rem 1rem;
     text-align: center;
     border-top-right-radius: 1rem;
@@ -164,13 +164,13 @@ hr {
 }
 
 
-.list-item-inline{
-        padding: 2rem;
-    }
+.list-item-inline {
+    padding: 2rem;
+}
 
 .social-img {
     margin: auto;
-    max-width:80px;   
+    max-width: 80px;
 }
 
 .list-item {
@@ -179,7 +179,7 @@ hr {
 }
 
 .li-img-logo {
-    max-width:150px; 
+    max-width: 150px;
 }
 
 .image-text {
@@ -187,21 +187,21 @@ hr {
     text-align: auto;
 }
 
-.logos{
+.logos {
     text-align: center;
     display: grid;
     grid-template-columns: auto auto auto;
 }
 
-.logo{
+.logo {
     width: 90px;
 }
 
-.logoDiv{
+.logoDiv {
     margin: 0.5rem;
 }
 
-figcaption{
+figcaption {
     font-weight: bold;
     font-size: 1rem;
 }
