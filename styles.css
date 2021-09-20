@@ -27,7 +27,7 @@ hr {
 }
 
 .container-center {
-    max-width: 600px;
+    max-width: 60%;
     margin: auto;
 }
 
@@ -96,13 +96,19 @@ hr {
 }
 
 .hero .hero-img {
-    max-width: 500px;
+    max-width: 50%;
     display: block;
     margin: auto;
 }
 
 .hero .hero-img2 {
-    max-width: 400px;
+    max-width: 40%;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-img3 {
+    max-width: 35%;
     display: block;
     margin: auto;
 }
@@ -124,7 +130,7 @@ hr {
 /* Section */
 
 .section {
-    padding: 4rem;
+    padding: 3rem;
 }
 
 .section h1 {
@@ -170,17 +176,17 @@ hr {
 
 .social-img {
     margin: auto;
-    max-width: 80px;
+    max-width: 60px;
 }
 
 .list-item {
     display: inline;
     font-weight: bold;
 }
-
+/* 
 .li-img-logo {
     max-width: 150px;
-}
+} */
 
 .image-text {
     margin: auto;
@@ -194,7 +200,7 @@ hr {
 }
 
 .logo {
-    width: 90px;
+    width: 3rem;
 }
 
 .logoDiv {
@@ -204,4 +210,17 @@ hr {
 figcaption {
     font-weight: bold;
     font-size: 1rem;
+}
+
+@media screen and (max-width: 360px) {
+
+    .list-item-inline{
+        padding: 0rem;
+    }
+    .logo{
+        width: 40px;
+    }
+    figcaption{
+        font-size: 0.6rem;
+    }
 }
