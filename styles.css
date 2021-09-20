@@ -197,6 +197,7 @@ hr {
     text-align: center;
     display: grid;
     grid-template-columns: auto auto auto;
+    padding-inline-start:0px;
 }
 
 .logo {
