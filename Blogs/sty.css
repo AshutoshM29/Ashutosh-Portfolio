@@ -1,0 +1,4 @@
+/*This is the basic syntax of media qurey */
+@media screen and (min-width: 800px) {
+     /*CSS Rule  */
+}

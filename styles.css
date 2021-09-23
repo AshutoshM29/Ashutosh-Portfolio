@@ -113,6 +113,12 @@ hr {
     margin: auto;
 }
 
+.hero .hero-img4 {
+    max-width: 90%;
+    display: block;
+    margin: auto;
+}
+
 .hero .hero-heading {
     padding-top: 1rem;
     color: #60A5FA;
@@ -216,12 +222,40 @@ figcaption {
 @media screen and (max-width: 360px) {
 
     .list-item-inline{
+        display: inline;
         padding: 0rem;
     }
     .logo{
         width: 40px;
     }
-    figcaption{
+    .figcaption{
         font-size: 0.6rem;
     }
+    .container-center{
+        width: auto;
+    }
+    .link-primary{
+        display: block;
+    }
+    .body{
+        max-width: 95%;
+        width: 100%;
+    }
+}
+
+.section-blog {
+    width: 50%;
+    margin: auto;
+    display: block;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.list-blog{
+    padding: 1rem;
+}
+
+.blog-img {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
